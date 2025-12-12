@@ -3,7 +3,7 @@ import { DisposableHolder } from "../features/DisposableHolder";
 
 const CONFIG_SECTION = "objectIdNinja";
 
-const DEFAULT_HOST_NAME = "vjekocom-alext-weu-v2-guf7gybcetaee5c8.westeurope-01.azurewebsites.net";
+const DEFAULT_HOST_NAME = "backend.alid.ninja";
 
 export class Config extends DisposableHolder {
     private _config: WorkspaceConfiguration;
